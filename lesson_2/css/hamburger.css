@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.fillingOptions {
+    margin-top: 20px;
+}
+
+.optional {
+    margin-top: 10px;
+}

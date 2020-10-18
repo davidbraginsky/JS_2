@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/hamburger.css">;
+</head>
+
+<body>
+    <div class="container">
+        <div class="burgerOptions">
+            <input type="radio" name="burgerSize" id="smallBurger" data-price='50' data-calories='20'>
+            <label for="smallBurger">Маленький бургер (50 рублей, 20 калорий)</label><br>
+            <input type="radio" name="burgerSize" id="bigBurger" data-price='100' data-calories='40'>
+            <label for="bigBurger">Большой бургер (100 рублей, 40 калорий)</label>
+        </div>
+        <div class="fillingOptions">
+            <div class="mandatory">
+                <input type="radio" name="mandatoryFilling" id="cheese" data-price='10' data-calories='20'>
+                <label for="cheese">С сыром (+10 рублей, +20 калорий)</label><br>
+                <input type="radio" name="mandatoryFilling" id="salad" data-price='20' data-calories='5'>
+                <label for="salad">С салатом (+20 рублей, +5 калорий)</label><br>
+                <input type="radio" name="mandatoryFilling" id="potato" data-price='15' data-calories='10'>
+                <label for="potato">С картофелем (+15 рублей, +10 калорий)</label>
+            </div>
+            <div class="optional">
+                <input type="checkbox" id="seasoning" data-price='15' data-calories='0'>
+                <label for="seasoning">Приправа (+15 рублей, +0 калорий)</label><br>
+                <input type="checkbox" id="mayo" data-price='20' data-calories='5'>
+                <label for="mayo">Майонез (+20 рублей, +5 калорий)</label>
+            </div>
+        </div>
+        <div class="btn">Посчитать</div>
+        <div class="result"></div>
+    </div>
+    <script src="./js/hamburger.js"></script>
+</body>
+
+</html>
