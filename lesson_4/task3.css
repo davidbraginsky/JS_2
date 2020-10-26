@@ -1,0 +1,9 @@
+.redborder {
+    border: red 2px solid;
+}
+
+;
+
+input {
+    outline: none !important;
+}
